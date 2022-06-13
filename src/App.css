@@ -1,0 +1,58 @@
+body{
+  background-color: black;
+  color: white;
+
+}
+.App{
+  margin: 0 auto;
+  padding: 10px;
+  background-color: black;
+  box-shadow: 2px 2px 5px rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("https://wallpapercave.com/wp/wp2065394.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 20rem;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.card{
+  margin-top: 30px;
+  width: 300px;
+  height: 500px;
+
+}
+.rickAndMorty{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+ 
+}
+
+.location{
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 950px;
+background-color: black;
+box-shadow: 2px 5px 10px rgb(255, 255, 255);
+margin-top: 300px;
+}
+.location ul{
+  display: flex;
+  flex-direction: column; 
+  
+
+}
+
+.location ul span{
+  display: flex;
+
+}
+
+
