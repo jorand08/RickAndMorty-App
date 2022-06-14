@@ -1,15 +1,10 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import usePersonApi from '../hook/usePersonApi'
 
 const Card = ({resident}) => {
-    const [person, setPerson] = useState()
-
-    useEffect(() => {
-        axios.get(resident)
-        .then(res => setPerson(res.data))
-        .catch(err => console.log(err))
-    },[])
-    console.log(person)
+    
+const person = usePersonApi(resident)
   return (
     <div className='card'>
       <article>
