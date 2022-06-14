@@ -4,9 +4,8 @@ const LocationInfo = ({location}) => {
 
   return (
     <article className='location'>
-
     <h2>{location?.name}</h2>
-    <ul>
+    <ul className='locationName'>
         <li><span>Type: </span>{location?.type}</li>
         <li><span>Dimension: </span>{location?.dimension}</li>
         <li><span>Population: </span>{location?.residents.length}</li>

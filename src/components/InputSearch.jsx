@@ -7,7 +7,7 @@ const searchLocation = e => {
     setSearchLocation(e.target.children[0].value)
 }
   return (
-    <form onSubmit={searchLocation}>
+    <form className='inputBtn' onSubmit={searchLocation}>
         <input type="text" />
         <button>Search</button>
 

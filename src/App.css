@@ -1,30 +1,54 @@
 body{
   background-color: black;
   color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 
 }
 .App{
-  margin: 0 auto;
   padding: 10px;
   background-color: black;
-  box-shadow: 2px 2px 5px rgb(255, 255, 255);
+  /* box-shadow: 2px 2px 5px rgb(255, 255, 255); */
   display: flex;
   flex-direction: column;
   align-items: center;
   background-image: url("https://wallpapercave.com/wp/wp2065394.png");
-  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 60rem;
-  border-radius: 10px;
-  margin-bottom: 15px;
+  height: 50rem;
+
+ 
 }
 
 .card{
+
   margin-top: 50px;
   width: 300px;
   height: 500px;
+  border: solid 5px #dd4cb1;
+  border-radius: 10px;
 
+}
+
+
+.cardName{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-size: small;
+  align-items: center;
+  
+}
+
+.cardName h2{
+  font-size: 25px;
+  margin: 8px;
+  color: #dd4cb1;
+}
+.cardName span{
+  margin: 10px;
+ text-align: end;
+ font-size: larger;
 }
 .rickAndMorty{
     display: flex;
@@ -38,21 +62,52 @@ body{
 display: flex;
 flex-direction: column;
 justify-content: center;
-width: 950px;
-background-color: black;
-box-shadow: 2px 5px 10px rgb(255, 255, 255);
-margin-top: 500px;
+text-align: center;
+height:100%;
+padding: 10px;
+margin-top:20px;
+border-radius: 10px;
+border: solid 2px white;
+
 }
-.location ul{
+.location h2{
+font-size:60px;
+margin: 0 ;
+}
+.locationName{  
+list-style: none;
+display: flex;
+gap:150px;
+padding: 00px 60px;
+
+}
+.locationName li{
+  font-size: 25px;
+}
+
+.locationName span{
   display: flex;
-  flex-direction: column; 
+  justify-content: center;
+  font-size: 15px;
+}
+
+.inputBtn{
+  display: flex;
+  padding: 340px;
+}
+
+.inputBtn input{
   
-
+  width: 600px;
+  height: 100%;
+  outline: none;
+  font-size: 1.2em;
+  border-radius: 10px;
 }
-
-.location ul span{
-  display: flex;
-
+.inputBtn button{
+  border-radius: 5px;
+  margin-top: 5px;
+  width: 100px;
 }
 
 
