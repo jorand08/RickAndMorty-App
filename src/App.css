@@ -2,8 +2,7 @@ body{
   background-color: black;
   color: white;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-
+  padding-bottom: 50px;
 }
 .App{
   padding: 10px;
@@ -13,16 +12,17 @@ body{
   flex-direction: column;
   align-items: center;
   background-image: url("https://wallpapercave.com/wp/wp2065394.png");
-  background-size: cover;
+  background-size: auto;
   background-position: center;
   height: 50rem;
-
+  margin: auto;
  
 }
 
 .card{
 
-  margin-top: 50px;
+  margin-top: 25px;
+  margin-bottom: 50px;
   width: 300px;
   height: 500px;
   border: solid 5px #dd4cb1;
@@ -110,4 +110,34 @@ padding: 00px 60px;
   width: 100px;
 }
 
+
+/*---Pagination---*/
+.pagination-container{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  width: max-content;
+  margin-top: 20px;
+}
+
+.pagination-number-container{
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  padding-left: 0;
+  cursor: pointer;
+}
+.pagination-prev-next{
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+.page-number{
+  font-size: 25px;
+  color: white;
+}
+
+.page-active{
+  color: #dd4cb1;
+}
 
